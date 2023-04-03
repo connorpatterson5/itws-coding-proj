@@ -3,8 +3,6 @@
 
 **Guidelines:**
 
-Coding project
-
 We are going to read some seminal papers in information security this semester. One of which is the short essay “Reflections on Trusting Trust” by Ken Thompson. Without spoiling it too much, Thompson describes how a compiler can be rigged to insert backdoors into other programs--essentially bugging the program without needing to bug the program’s source code. Of course, that same concept can be applied to the compiler itself, yielding a compiler that is rigged to bug another program without any evidence of the bug in either the compiler’s or the target program’s source code.
 
 Your task is to implement this attack on a C compiler of your choosing.
